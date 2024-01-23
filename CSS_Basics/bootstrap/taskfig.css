@@ -1,0 +1,2517 @@
+.root{
+    width: 100%;
+}
+.page{
+    width: 100%;
+    height: 750vh;
+}
+.red{
+    background-color: white;
+}
+.blue{
+  background-color: white;
+}
+.green{
+  background-color: white;
+}
+.org{
+  background-color: white;
+}
+.rendom{
+  background-color: white;
+}
+.top{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+a{
+    font-size: 1em;
+    padding: 3px 10px;
+}
+.page1_header{
+    display: flex;
+    height: 7vh;
+    position: relative;
+    overflow: hidden;
+}
+.page1_header_left{
+    background-color:deepskyblue;
+    width: 50%;
+    height: 450px;
+    /* transform: rotate(-25deg); */
+    transform: rotate(25deg);
+    /* flex-direction: column; */
+    justify-content: left;
+    
+    position: absolute;
+    top: -220px;
+    left: -30px;
+}
+/* .page1_header_left:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: deepskyblue;
+    
+    transform-origin: top right;
+    z-index: -1;
+} */
+/* .phone, .email {
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    width: 80%;
+} */
+.phone, .email {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 80%; 
+    left: 10%;
+}
+
+.phone img, .email img {
+    /* margin-right: 10px; */
+    display: block;
+    margin: 0 auto;
+}
+.page1_header_right{
+    background-color: black;
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+}
+/* .page1_content{
+    background-color: gray;
+    height: 60vh;
+    width: 100%;
+    z-index: 100;
+    position: relative;
+} */
+/* .page1_header_content{
+    width: 50%;
+    z-index: 100;
+    display: flex;
+} */
+.page1_header_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+/* span{
+    color: white;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+} */
+.root .navigation {
+    /* margin: 0 24.5em;
+    width: 100%;
+    height: 5.2em;
+    display: flex;
+    align-items: center; */
+    /* flex-shrink: 0; */
+    width: 1110px;
+    height: 52px;
+    top: 75px;
+    left: 245px;
+    border-radius: 30px;
+
+}
+  .root .navigation .auto {
+    box-sizing: border-box;
+    padding-right: 12em;
+    padding-left: 12em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-shrink: 0; */
+  }
+  .root .navigation .auto .travelsy {
+    width: 143px;
+    height: 46px;
+    top: 78px;
+    left: 245px;
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+
+
+    /* margin-right: 22.8em;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #4691f2;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline; */
+    /* flex-shrink: 0; */
+  }
+  .root .navigation .auto .travelsy .travelsy0 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #4691f2;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .navigation .auto .travelsy .travelsy1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .navigation .auto .auto1 {
+    margin: 1em 3em 0em 10em;
+    width: 46.3em;
+    flex-shrink: 0;
+  }
+  .root .navigation .auto .auto1 .group {
+    /* width: 100%;
+    display: flex;
+    column-gap: 3em;
+    align-items: center; */
+    width: 463px;
+    height: 28px;
+    top: 87px;
+    left: 616px;
+    display: flex;
+    display: flex;
+    column-gap: 3em;
+    align-items: center;
+
+  }
+  .root .navigation .auto .auto1 .group .home-52U {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #4691f2;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    width: 51px;
+    height: 28px;
+    top: 87px;
+    left: 616px;
+
+    flex-shrink: 0;
+  }
+  .root .navigation .auto .auto1 .group .home-cYC {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    width: 81px;
+    height: 28px;
+    top: 87px;
+    left: 697px;
+
+    flex-shrink: 0;
+  }
+  .root .navigation .auto .auto1 .group .home-NGU {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    width: 117px;
+    height: 28px;
+    top: 87px;
+    left: 808px;
+
+    flex-shrink: 0;
+  }
+  .root .navigation .auto .auto1 .group .home-7zk {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    width: 55px;
+    height: 28px;
+    top: 87px;
+    left: 955px;
+
+    flex-shrink: 0;
+  }
+  .root .navigation .auto .auto1 .group .home-gHA {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    width: 39px;
+    height: 28px;
+    top: 87px;
+    left: 1040px;
+
+    flex-shrink: 0;
+  }
+  /* .root .navigation .auto .auto1 .ellipse-341-DXz {
+    margin-left: 2.1em;
+    width: 1em;
+    height: 1em;
+    background-color: #4691f2;
+    border-radius: 0.5em;
+  } */
+  .root .navigation .auto .lets-talk-Xoa {
+    /* width: 5.4em;
+    height: 5.2em;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 3em;
+    flex-shrink: 0; */
+    width: 52px;
+    height: 40px;
+    top: 87px;
+    left: 1109px;
+    /* padding: 14px, 15px, 14px, 15px; */
+    border-radius: 30px;
+    padding-right: 122px;
+    border: 2px;
+    /* gap: 10px; */
+    /* object-fit: contain;
+    vertical-align: top;
+    border-radius: 3em; */
+
+  }
+  .root .navigation .lets-talk-s6k {
+    width: 165px;
+    height: 52px;
+    top: -40px;
+    bottom: 0;
+    left: 1183px;
+    /* padding: 14px, 26px, 14px, 26px; */
+    padding: 14px, 15px, 14px, 15px;
+    border-radius: 30px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #4691f2;
+    overflow: hidden;
+    position: relative;
+
+  }
+  .root .navigation .lets-talk-s6k .contact {
+    margin-right: 1em;
+    display: flex;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    /* flex-shrink: 0; */
+    /* width: 86px;
+    height: 24px; */
+
+  }
+  .root .navigation .lets-talk-s6k .ph {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: top;
+    /* flex-shrink: 0; */
+  }
+  .root .map {
+  box-sizing: border-box;
+  /* padding: 10rem 5%; */
+  width: 100%;
+  height: 766px;
+  top: 152px;
+  display: flex;
+  align-items: center;
+  background-image: url('../bootstrap/assets/map\ image.png');
+  /* flex-shrink: 0; */
+  }
+  .root .map .content {
+    /* margin: 1.1em 1em 1.1em 0em; */
+    
+    width: 540px;
+    height: 364px;
+    
+    top: 353px;
+    left: 245px;
+    border-radius: 30px;
+    /* flex-shrink: 0;
+    text-align: left;
+    font-family: Bunny;
+    font-size: 4px;
+    font-weight: 40;
+    line-height: 4px;
+    letter-spacing: 0em; */
+
+  }
+  .root .map .content .relax {
+    /* margin-bottom: 0.4em; */
+    width: 215px;
+    height: 34px;
+    top: 353px;
+    left: 245px;
+    padding-left: 202px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 34px;
+    color: #191212;
+    font-family: Bunny, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .root .map .content .choose-travelsy {
+    margin-bottom: 2em;
+    width: 515px;
+    padding-left: 202px;
+    font-size: 1.8em;
+    font-weight: 70;
+    line-height: 0.5;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .map .content .choose-travelsy .choose-travelsy-sub-0 {
+    font-size: 1.8em;
+    font-weight: 70;
+    line-height: 1.1;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .map .content .choose-travelsy .choose-travelsy-sub-1 {
+    font-size: 1.8em;
+    font-weight: 70;
+    line-height: 1.1;
+    color: #4691f2;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .map .content .choose-travelsy .choose-travelsy-sub-2 {
+    font-size: 1.8em;
+    font-weight: 70;
+    line-height: 1.1;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .map .content .lorem  {
+    margin-bottom: 4rem;
+    max-width: 51.9rem;
+    padding-left: 202px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .map .content .button {
+    /* margin-right: 31.4rem;
+    box-sizing: border-box;
+    padding: 14px, 26px, 14px, 26px;
+    padding-left: 202px;
+    width: 226px;
+    height: 52px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #4691f2;
+    border-radius: 3rem;
+    gap: 10px; */
+    width: 226px;
+    height: 52px;
+    box-sizing: border-box;
+    padding: 14px, 26px, 14px, 26px;
+    
+    border-radius: 50px;
+    gap: 10px;
+    background: rgba(70, 145, 242, 1);
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 0;
+    left: 59%;
+    display: flex;
+    justify-content: center; 
+    
+
+  }
+  .root .map .content .button .contact-us-XPa {
+    margin-right: 1.2rem;
+    width: 140px;
+    height: 24px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .map .content .button .uis-calender-FaU {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+    top: 0;
+    right: 20px;
+    position: absolute;
+    text-align: center;
+    transform: translate(50%, 50%);
+    /* background: rgba(255, 255, 255, 1); */
+
+  }
+  .root .map .banner-image-ZLG {
+    width: 55%;
+    height: 400px;
+    position: relative;
+    top: -120px;
+    left: 40%;
+    border-radius: 10px;
+    flex-shrink: 0;
+    transform: translateX(-50%);
+  }
+  .root .map .banner-image-ZLG .rectangle-14323-WWQ {
+    width: 355px;
+    margin: 0 auto;
+    height: 305px;
+    position: absolute;
+    margin-right: 70%;
+    top: 10%;
+    background-size: 100% auto;
+    
+    background-position: 0 0;
+    background-image: url('../bootstrap/assets/rectangle-14323-F3i.png');
+    border-radius: 10px;
+  }
+  .root .map .banner-image-ZLG .rectangle-14325-yPz {
+    width: 255px;
+    height: 404px;
+    position: absolute;
+    /* margin-right: 70%; */
+    /* left: 1100px; */
+    top: 20%;
+    margin-left: 50%;
+    border-radius: 10px;
+  }
+  .root .map .banner-image-ZLG .rectangle-14324-tmr {
+    width: 22.3rem;
+    height: 23.1rem;
+    position: absolute;
+    left: 0;
+    top: 22.5rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 10px;
+  }
+  .root .map .banner-image-ZLG .group-8742-QVJ {
+    /* box-sizing: border-box; */
+    padding: 0.732rem 1.557rem 0.846rem 0.843rem;
+    width: 17.5rem;
+    height: 17.5rem;
+    position: absolute;
+     left: 16.2rem;
+    top: 17rem;
+    /*background-color: #4691f2;
+    border-radius: 8.75rem; */
+  }
+  .root .booking-form {
+    box-sizing: border-box;
+    /* padding: 3rem; */
+    width: 1110px;
+    height: 82px;
+    position: absolute;
+    left: 195px;
+    top: 918px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 0 3rem rgba(0, 0, 0, 0.0599999987); */
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+  .root .booking-form .venue {
+    /* margin-right: 3rem; */
+    box-sizing: border-box;
+    /* padding: 1.2rem 2rem 1.2rem 2rem; */
+    padding-right: 30px;
+    width: 173.33px;
+    height: 52px;
+    font-family: Lexend, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    border: solid 0.1rem rgba(70, 145, 242, 0.3000000119);
+    border-radius: 3em;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-right: 30px;
+    margin-left: 50px;
+  }
+  .root .booking-form .venue .span {
+    width: 122px;
+    height: 28px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #171717;
+    font-family: Lexend, 'Source Sans Pro';
+  }
+  .root .booking-form .date {
+    /* margin-right: 3rem; */
+    box-sizing: border-box;
+    /* padding: 1.2rem 2rem 1.2rem 2rem; */
+    padding-right: 30px;
+    width: 173.33px;
+    height: 52px;
+    font-family: Lexend, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    border: solid 0.1rem rgba(70, 145, 242, 0.3000000119);
+    border-radius: 3em;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-right: 50px;
+  }
+  .root .booking-form .code {
+    /* margin-right: 3rem; */
+    box-sizing: border-box;
+    /* padding: 1.2rem 2rem 1.2rem 2rem; */
+    padding-right: 50px;
+    width: 173.33px;
+    height: 52px;
+    font-family: Lexend, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    border: solid 0.1rem rgba(70, 145, 242, 0.3000000119);
+    border-radius: 3em;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-right: 50px;
+  }
+  .root .booking-form .button-U6Q {
+    box-sizing: border-box;
+    /* padding: 1.4rem 3.042rem 1.4rem 2.6rem; */
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #4691f2;
+    border-radius: 3rem;
+    flex-shrink: 0;
+    margin-right: 50px;
+  }
+  .root .booking-form .button-U6Q .contact-us-z4k {
+    margin-right: 1.4rem;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .booking-form .button-U6Q .material {
+    margin-bottom: 0rem;
+    width: 1.5575rem;
+    height: 1.115rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  /* .root .rectangle-14326-MJc {
+    width: 66.6219rem;
+    height: 66.6219rem;
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    background: linear-gradient(15.32deg, #4691f2 41.05%, rgba(70, 145, 242, 0) 58.95%);
+  } */
+
+  .root .about-us {
+    width: 1109px;
+    height: 514px;
+    position: absolute;
+    left: 245px;
+    top: 1130px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    border: 8px solid rgba(255, 255, 255, 1)
+  }
+  .root .about-us .about-image {
+    /* margin-right: 3rem; */
+    height: 514px;
+    top: 1130px;
+    left: 245px;
+    width: 540px;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    border: 8px solid rgba(255, 255, 255, 1)
+  }
+  .root .about-us .about-image .rect_14305 {
+    /* margin-right: 3rem; */
+    width: 350px;
+    height: 514px;
+    top: 1130px;
+    left: 245px;
+    /* object-fit: cover;
+    vertical-align: top; */
+    border-radius: 300px;
+    flex-shrink: 0;
+    border: 8px;
+  }
+  .root .about-us .about-image .auto-group .auto-group {
+    width: 16rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .root .about-us .about-image .auto-group .asset-1-1-yjJ {
+    margin-bottom: 1.2rem;
+    width: 160px;
+    height: 207px;
+    top: 0;
+    left: 43%; 
+    transform: translateX(-50%);
+   
+    position: absolute;
+    background-size: 125% 99.883%;
+    background-position: -3rem -0rem;
+    background-image: url('../bootstrap/assets/asset-1-1-fFz.png');
+    flex-shrink: 0;
+  }
+  .root .about-us .about-image .auto-group .rectangle-14306-4kk {
+    width: 160px;
+    height: 255px;
+
+    border: solid 0.8rem #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1000000015);
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../bootstrap/assets/rectangle-14306-bg-KYx.png');
+    border-radius: 98px;
+    flex-shrink: 0;
+  }
+  .root .about-us .content1 {
+    width: 539px;
+    height: 514px;
+    top: 1130px;
+    left: 815px;
+    flex-shrink: 0;
+    
+  }
+  .root .about-us .content1 .get-about-us {
+    font-size: 24px;
+    font-weight: 400;
+    width: 109px;
+    height: 34px;
+    top: 1130px;
+    left: 815px;
+
+    line-height: 34px;
+    color: #4691f2;
+    font-family: Bunny, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .root .about-us .content1 .more-about {
+    /* margin-bottom: 2rem; */
+    width: 434px;
+    height: 54px;
+    /* top: 0;
+    left: 815px; */
+    margin-top: -5%;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .root .about-us .content1 .para {
+    /* margin-bottom: 0.5rem; */
+    /* max-width: 54rem; */
+    width: 539px;
+    height: 130px;
+    left: 815px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .about-us .content1 .para1 {
+    /* margin-bottom: 1.5rem;
+    max-width: 52.1rem; */
+    width: 539px;
+    height: 78px;
+    left: 815px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .about-us .content1 .icon-list {
+    /* margin-bottom: 3.6rem; */
+    width: 363px;
+    height: 90px;
+    left: 815px;
+    /* row-gap: 0.6rem; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+  }
+  .root .about-us .content1 .icon-list .grp {
+    /* box-sizing: border-box; */
+    /* padding-left: 0.225rem; */
+    width: 363px;
+    height: 26px;
+    left: 815px;
+    display: flex;
+    /* align-items: center; */
+    flex-shrink: 0;
+    
+  }
+  .root .about-us .content1 .icon-list .grp .bxs-send {
+    /* margin: 0rem 0.75rem 0rem 0rem; */
+    width: 18px;
+    height: 18px;
+    left: 815px;
+  }
+  .root .about-us .content1 .icon-list .grp .list {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: -1%;
+    width: 339px;
+    height: 26px;
+    left: 839px;
+    color: #000000;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .about-us .content1 .box {
+    /* margin: 0rem 36.9rem 0rem 0.1rem; */
+    box-sizing: border-box;
+    /* padding: 1.4rem 3.042rem 1.4rem 2.6rem; */
+    width: 170px;
+    height: 52px;
+    left: 566px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #4691f2;
+    border-radius: 30px;
+    
+  }
+  .root .about-us .content1 .box .box-1 {
+    margin-right: 1.4rem;
+    width: 84px;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .about-us .content1 .box .box-1 .material {
+    margin-bottom: 0rem;
+    width: 15.58px;
+    height: 11.15px;
+    /* object-fit: contain;
+    vertical-align: top; */
+    flex-shrink: 0;
+    right: 40px;
+    left: 90px;
+    margin-right: 80px;
+  }
+  .root .at .plane-vector-Vit {
+    opacity: 0.2;
+    width: 501.41px;
+    height: 478.66px;
+    position: absolute;
+    left: 1130px;
+    top: 1130px;
+    /* object-fit: contain;
+    vertical-align: top; */
+  }
+  /* .root .auto-group2 {
+    width: 1120px;
+    height: 789px;
+    position: absolute;
+    flex-shrink: 0;
+  } */
+  .root .hotel-booking {
+    width: 1600px;
+    height: 968px;
+    top: 1744px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    margin-right: 140%;
+    margin-left: -25%;
+    margin-top: -90%;
+    row-gap: 6px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(70, 145, 242, 0.1000000015) -0%, rgba(70, 145, 242, 0) 100%);
+  }
+
+  .root .hotel-booking .main-title {
+    margin: 0rem 24.5rem 0rem 29.1rem;
+    width: 574px;
+    left: 536px;
+    height: 88px;
+    top: 1244px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .hotel-booking .main-title .top-destinations {
+    /* margin-right: 0.6rem; */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4691f2;
+    width: 130px;
+    height: 34px;
+    top: 1844px;
+    left: 736px;
+    font-family: Bunny, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .main-title .popular {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    width: 574px;
+    height: 54px;
+    top: -18px;
+    margin-top: -10px;
+    left: 536px;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .root .hotel-booking .grp2 {
+    width: 1110px;
+    height: 512px;
+    display: flex;
+    left: 245px;
+    top: 1992px;
+    column-gap: 30px;
+    align-items: center;
+    flex-direction: column;
+  } 
+  .root .hotel-booking .grp2 .boxes1 {
+    box-sizing: border-box;
+    padding: 10px 10px 20px 10px;
+    width: 350px;
+    height: 512px;
+    left: 50%;
+    margin-right: 30%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    top: 1992px;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .root .hotel-booking .grp2 .boxes1 .blog-image {
+    margin-bottom: 2rem;
+    width: 330px;
+    height: 512px;
+    left: 255px;
+    top: 2002px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./bootstrap/assets/Blog\ Image3.png');
+    border-radius: 10px;
+  }
+  .root .hotel-booking .grp2 .boxes1 .title {
+    /* margin: 0rem 5.9rem 1rem 0rem; */
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 260px;
+    height: 32px;
+    top: 2252px;
+    left: 260px;
+    margin-top: -10px;
+    margin-right: 70px;
+    color: #1e1e1e;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .text {
+    /* margin-bottom: 2rem; */
+    width: 330px;
+    height: 78px;
+    top: 2252px;
+    left: 260px;
+    font-size: 16px;
+    margin-top: -10px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-1 {
+    margin: 0rem 3.7rem 2rem 0.5rem;
+    width: 288px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    left: 260px;
+    top: 2392px;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-1 .grp2-2 {
+    margin-right: 1rem;
+    box-sizing: border-box;
+    padding-left: 5px;
+    height: 26px;
+    left: 260px;
+    top: 2392px;
+    width: 102px;
+    display: flex;
+    align-items: center;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-1 .grp2-2 .map-img {
+    margin-right: 1.1rem;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+    left: 260px;
+    top: 2393px;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-1 .grp2-2 .museums {
+    font-size: 16px;
+    width: 72px;
+    height: 26px;
+    top: 2392px;
+    left: 290px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #191212;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-1 .grp2-3 {
+    box-sizing: border-box;
+    padding-left: 0.4rem;
+    height: 26px;
+    width: 176px;
+    top: 2392px;
+    left: 372px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-1 .grp2-3 .user {
+    margin-right: 1rem;
+    width: 24px;
+    height: 24px;
+    left: 372px;
+    top: 2393px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-1 .grp2-3 .person {
+    font-size: 16px;
+    font-weight: 600;
+    width: 146px;
+    height: 26px;
+    top: 2392px;
+    left: 402px;
+    margin-top: 13px;
+    line-height: 26px;
+    color: #191212;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-4 {
+    /* margin: 0 0.5rem; */
+    width: 320px;
+    height: 46px;
+    top: 2438px;
+    left: 260px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-4 .slash {
+    margin-right: 10.9rem;
+    width: 167px;
+    height: 46px;
+    top: 2438px;
+    left: 260px;
+
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-4 .slash-sub-0 {
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-4 .slash-sub-1 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .hotel-booking .grp2 .boxes1 .grp2-4 .grp2-5{
+    width: 44px;
+    height: 44px;
+    top: 2439px;
+    left: 580px;
+    border-radius: 30px;
+    angle: -180 deg;
+    margin-left: -80px;
+    margin-top: -14px;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+
+  .root .hotel-booking .grp2 .boxes2 {
+    box-sizing: border-box;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 350px;
+    height: 512px;
+    left: 625px;
+    margin-right: 30%;
+    margin-left: 390%;
+    margin-top: -50%;
+    transform: translateX(-50%);
+    margin-top: -82%;
+    top: 1992px;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .root .hotel-booking .grp2 .boxes2 .blog-image1 {
+    margin-bottom: 2rem;
+    width: 330px;
+    height: 512px;
+    left: 635px;
+    top: 2002px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../bootstrap/assets/Blog\ Image3.png');
+    border-radius: 10px;
+  }
+  .root .hotel-booking .grp2 .boxes2 .title1 {
+    /* margin: 0rem 5.9rem 1rem 0rem; */
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 260px;
+    height: 32px;
+    top: 2252px;
+    left: 640px;
+    margin-top: -10px;
+    margin-right: 70px;
+    color: #1e1e1e;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .text1 {
+    /* margin-bottom: 2rem; */
+    width: 320px;
+    height: 78px;
+    top: 2294px;
+    left: 640px;
+    font-size: 16px;
+    margin-top: -10px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-11 {
+    margin: 0rem 3.7rem 2rem 0.5rem;
+    width: 288px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    left: 640px;
+    top: 2392px;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-11 .grp2-21 {
+    margin-right: 1rem;
+    box-sizing: border-box;
+    padding-left: 5px;
+    height: 26px;
+    left: 640px;
+    top: 2392px;
+    width: 102px;
+    display: flex;
+    align-items: center;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-11 .grp2-21 .map-img1 {
+    margin-right: 1.1rem;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+    left: 640px;
+    top: 2393px;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-11 .grp2-21 .museums1 {
+    font-size: 16px;
+    width: 72px;
+    height: 26px;
+    top: 2392px;
+    left: 670px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #191212;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-11 .grp2-31 {
+    box-sizing: border-box;
+    padding-left: 0.4rem;
+    height: 26px;
+    width: 176px;
+    top: 2392px;
+    left: 752px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-11 .grp2-31 .user1 {
+    margin-right: 1rem;
+    width: 24px;
+    height: 24px;
+    left: 752px;
+    top: 2393px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-11 .grp2-31 .person1 {
+    font-size: 16px;
+    font-weight: 600;
+    width: 146px;
+    height: 26px;
+    top: 2392px;
+    left: 782px;
+    margin-top: 13px;
+    line-height: 26px;
+    color: #191212;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-41 {
+    /* margin: 0 0.5rem; */
+    width: 320px;
+    height: 46px;
+    top: 2438px;
+    left: 640px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-41 .slash1 {
+    margin-right: 10.9rem;
+    width: 167px;
+    height: 46px;
+    top: 2438px;
+    left: 640px;
+
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-41 .slash1-sub-0 {
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-41 .slash1-sub-1 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .hotel-booking .grp2 .boxes2 .grp2-41 .grp2-51{
+    width: 44px;
+    height: 44px;
+    top: 2439px;
+    left: 960px;
+    border-radius: 30px;
+    angle: -180 deg;
+    margin-left: -80px;
+    margin-top: -14px;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+
+  .root .hotel-booking .grp2 .boxes3 {
+    box-sizing: border-box;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 350px;
+    height: 512px;
+    left: 625px;
+    margin-right: 30%;
+    margin-left: 390%;
+    margin-top: -87%;
+    transform: translateX(-50%);
+    top: 1992px;
+    align-items: center;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .root .hotel-booking .grp2 .boxes3 .blog-image2 {
+    margin-bottom: 2rem;
+    width: 330px;
+    height: 512px;
+    left: 635px;
+    top: 2002px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../bootstrap/assets/Blog\ Image3.png');
+    border-radius: 10px;
+  }
+  .root .hotel-booking .grp2 .boxes3 .title2 {
+    /* margin: 0rem 5.9rem 1rem 0rem; */
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 260px;
+    height: 32px;
+    top: 2252px;
+    left: 640px;
+    margin-top: -10px;
+    margin-right: 70px;
+    color: #1e1e1e;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .text2 {
+    /* margin-bottom: 2rem; */
+    width: 320px;
+    height: 78px;
+    top: 2294px;
+    left: 640px;
+    font-size: 16px;
+    margin-top: -10px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-12 {
+    margin: 0rem 3.7rem 2rem 0.5rem;
+    width: 288px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    left: 640px;
+    top: 2392px;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-12 .grp2-22 {
+    margin-right: 1rem;
+    box-sizing: border-box;
+    padding-left: 5px;
+    height: 26px;
+    left: 640px;
+    top: 2392px;
+    width: 102px;
+    display: flex;
+    align-items: center;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-12 .grp2-22 .map-img2 {
+    margin-right: 1.1rem;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+    left: 640px;
+    top: 2393px;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-12 .grp2-22 .museums2 {
+    font-size: 16px;
+    width: 72px;
+    height: 26px;
+    top: 2392px;
+    left: 670px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #191212;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-12 .grp2-32 {
+    box-sizing: border-box;
+    padding-left: 0.4rem;
+    height: 26px;
+    width: 176px;
+    top: 2392px;
+    left: 752px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-12 .grp2-32 .user12 {
+    margin-right: 1rem;
+    width: 24px;
+    height: 24px;
+    left: 752px;
+    top: 2393px;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-12 .grp2-32 .person2 {
+    font-size: 16px;
+    font-weight: 600;
+    width: 146px;
+    height: 26px;
+    top: 2392px;
+    left: 782px;
+    margin-top: 13px;
+    line-height: 26px;
+    color: #191212;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-42 {
+    /* margin: 0 0.5rem; */
+    width: 320px;
+    height: 46px;
+    top: 2438px;
+    left: 640px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-42 .slash2 {
+    margin-right: 10.9rem;
+    width: 167px;
+    height: 46px;
+    top: 2438px;
+    left: 640px;
+
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-42 .slash2-sub-0 {
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-42 .slash2-sub-1 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .hotel-booking .grp2 .boxes3 .grp2-42 .grp2-52{
+    width: 44px;
+    height: 44px;
+    top: 2439px;
+    left: 960px;
+    border-radius: 30px;
+    angle: -180 deg;
+    margin-left: -80px;
+    margin-top: -14px;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+  .home-ju6 .auto-group-wgu2-Q5A .hotel-booking-XQg .arrow-bzk {
+    margin: 0 50.2rem;
+    box-sizing: border-box;
+    padding: 1rem 2.03rem 1.03rem 2rem;
+    width: calc(100% - 100.4rem);
+    height: 4.8rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #ffffff;
+    border-radius: 3rem;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .arrow-bzk .group-1000002269-iJg {
+    box-sizing: border-box;
+    padding: 0rem 0rem 0rem 0rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+  }
+  .hroot .hotel-booking .arrow-bzk .group-1000002269-iJg .material-symbols-arrow-right-alt-rounded-3rk {
+    margin: 0rem 1.03rem 0rem 0rem;
+    width: 2.7704rem;
+    height: 2.7704rem;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 3rem;
+    flex-shrink: 0;
+  }
+  .root .hotel-booking .arrow-bzk .group-1000002269-iJg .material-symbols-arrow-right-alt-rounded-m24 {
+    margin-top: 0rem;
+    width: 2.7704rem;
+    height: 2.7704rem;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 3rem;
+    flex-shrink: 0;
+  }
+  /* .root .rectangle-14327-xcL {
+    width: 60.0298rem;
+    height: 60.0298rem;
+    position: absolute;
+    left: 120.1921rem;
+    top: 71.7rem;
+    object-fit: contain;
+    vertical-align: top;
+  } */
+  .root .counter-tF6 {
+    box-sizing: border-box;
+    padding: 10rem 24.5rem;
+    width: 1600px;
+    height: 455px;
+    position: absolute;
+    left: 0;
+    top: 2712;
+    row-gap: 20px;
+    display: flex;
+    margin-top: 140%;
+    margin-left: -70%;
+    column-gap: 3rem;
+    align-items: center;
+    background-size: 100% 224.648%;
+    background-position: 0 -14.8989rem;
+    background-image: url('../assets/ojo4yq0-1-bg-Egk.png');
+  }
+  .root .counter-tF6 .hotel-atc {
+    box-sizing: border-box;
+    padding: 2.8rem 6.1rem 2.7rem 6.1rem;
+    width: 145px;
+    height: 175px;
+    left: 245px;
+    top: 2812px;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #fcfcfc;
+    border-radius: 15px;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .hotel-atc .group-1000002275-7Nk {
+    width: 133px;
+    height: 200px;
+    top: 2840px;
+    left: 306px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .counter-tF6 .hotel-atc .group-1000002275-7Nk .building-icon-436 {
+    /* margin: 0rem 0rem 2rem 0.1rem; */
+    width: 60px;
+    height: 60px;
+    /* left: 323px; */
+    margin-left: -100%;
+    margin-top: -20%;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .hotel-atc .group-1000002275-7Nk .item-1000-NpU {
+    font-size: 41px;
+    width: 133px;
+    height: 54px;
+    top: 2960px;
+    left: 306px;
+    margin-left: -70%;
+    margin-top: 5%;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .hotel-atc .group-1000002275-7Nk .hotel-iNY {
+    /* margin-left: 0.1em; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 40px;
+    height: 26px;
+    top: 3014px;
+    left: 353px;
+    margin-top: -30%;
+    margin-left: -90%;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .rooms-cTv {
+    box-sizing: border-box;
+    padding: 2.8rem 6.1rem 2.7rem 6.1rem;
+    width: 145px;
+    height: 175px;
+    left: 245px;
+    top: 2812px;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #fcfcfc;
+    border-radius: 1.5rem;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .rooms-cTv .group-1000002275-YcU {
+    width: 133px;
+    height: 200px;
+    top: 2840px;
+    left: 306px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .counter-tF6 .rooms-cTv .group-1000002275-YcU .bed-icon-hEU {
+    /* margin: 0rem 0rem 2rem 0.1rem; */
+    width: 60px;
+    height: 60px;
+    margin-left: -90%;
+    margin-top: -20%;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .rooms-cTv .group-1000002275-YcU .item-4500-DTi {
+    text-align: center;
+    font-size: 41px;
+    width: 133px;
+    height: 54px;
+    top: 2960px;
+    left: 306px;
+    margin-left: -70%;
+    margin-top: 5%;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .rooms-cTv .group-1000002275-YcU .rooms-available-96U {
+    margin-left: 0.1rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 40px;
+    height: 26px;
+    top: 3014px;
+    left: 353px;
+    margin-top: -30%;
+    margin-left: -150%;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .beaches-cVr {
+    box-sizing: border-box;
+    padding: 2.8rem 6.1rem 2.7rem 6.1rem;
+    width: 145px;
+    height: 175px;
+    left: 245px;
+    top: 2812px;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #fcfcfc;
+    border-radius: 1.5rem;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .beaches-cVr .group-1000002275-kc4 {
+    width: 133px;
+    height: 200px;
+    top: 2840px;
+    left: 306px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .counter-tF6 .beaches-cVr .group-1000002275-kc4 .beach-icon-tyA {
+    /* margin-bottom: 2rem; */
+    /* width: 60px;
+    height: 60px;
+    margin-left: -90%;
+    margin-top: -15%;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0; */
+    width: 60px;
+    height: 60px;
+    /* left: 323px; */
+    margin-left: -100%;
+    margin-top: -20%;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .beaches-cVr .group-1000002275-kc4 .item-30-Ry6 {
+    /* margin-right: 0.1rem; */
+    text-align: center;
+    font-size: 41px;
+    width: 133px;
+    height: 54px;
+    top: 2960px;
+    left: 306px;
+    margin-left: -70%;
+    margin-top: 5%;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root.counter-tF6 .beaches-cVr .group-1000002275-kc4 .beaches-view-9u6 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 40px;
+    height: 26px;
+    top: 3014px;
+    left: 353px;
+    margin-top: -50%;
+    margin-left: -80%;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .guest-FhE {
+    box-sizing: border-box;
+    padding: 2.8rem 6.1rem 2.7rem 6.1rem;
+    width: 145px;
+    height: 175px;
+    left: 245px;
+    top: 2812px;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #fcfcfc;
+    border-radius: 1.5rem;
+    flex-shrink: 0;
+  }
+  .root.counter-tF6 .guest-FhE .group-1000002275-YZr {
+    width: 133px;
+    height: 200px;
+    top: 2840px;
+    left: 306px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .counter-tF6 .guest-FhE .group-1000002275-YZr .guest-icon-VEC {
+    /* margin: 0rem 0rem 2rem 0.2rem; */
+    /* width: 60px;
+    height: 60px;
+    margin-top: -50%;
+    margin-left: -90%;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0; */
+    width: 60px;
+    height: 60px;
+    /* left: 323px; */
+    margin-left: -100%;
+    margin-top: -20%;
+    position: relative;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .guest-FhE .group-1000002275-YZr .item-8000-d5W {
+    text-align: center;
+    font-size: 41px;
+    width: 133px;
+    height: 54px;
+    top: 2960px;
+    left: 306px;
+    margin-left: -70%;
+    margin-top: 5%;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .guest-FhE .group-1000002275-YZr .guests-xNg {
+    /* margin-left: 0.2rem; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 40px;
+    height: 26px;
+    top: 3014px;
+    left: 353px;
+    margin-top: -30%;
+    margin-left: -90%;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .counter-tF6 .counter-tF6-bg {
+    width: 160rem;
+    height: 45.5rem;
+    position: relative;
+    background-image: url('REPLACE_IMAGE:9473d5f8ad5cb017f863dfa628977a31d3b7d435');
+  }
+
+  .root .auto-group-qaon-kpL {
+    margin-bottom: 10rem;
+    width: 50%;
+    margin-top: 130%;
+    margin-left: -180%;
+    height: 147.7rem;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A {
+    box-sizing: border-box;
+    padding: 12rem 0rem 10rem 24.5rem;
+    width: 1845px;
+    height: 876px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(70, 145, 242, 0.1000000015) -0%, rgba(70, 145, 242, 0) 100%);
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .best-places-for-your-party-zCt {
+    margin-left: -50%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 54px;
+    width: 213px;
+    height: 34px;
+    top: 3287px;
+    left: 694px;
+
+    margin-top: -10%;
+    color: #4691f2;
+    font-family: Bunny, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .place-that-accommodates-your-guest-hd6 {
+    /* margin: 0rem 48.8rem 6rem 0rem; */
+    
+    width: 802px;
+    height: 54px;
+    top: 3321px;
+    left: 399px;
+    margin-left: -20%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .auto-group-vyov-pBv {
+    margin-bottom: 60px;
+    width: 100%;
+    margin-right: -10%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .auto-group-vyov-pBv .auto-group-b4gu-Ytc {
+    box-sizing: border-box;
+    padding: 324px 30px 30px 30px;
+    width: 300px;
+    height: 300px;
+    margin-left: -20%;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.400000006);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../bootstrap/assets/rectangle-14315-bg-YVi.png');
+    border-radius: 15px, 0px, 0px, 15px;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .auto-group-vyov-pBv .auto-group-xcyt-b6C {
+    box-sizing: border-box;
+    padding: 324px 30px 30px 30px;
+    width: 300px;
+    height: 300px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 26px;
+    
+    color: #ffffff;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../bootstrap/assets/rectangle-14316-bg-uoJ.png');
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .auto-group-vyov-pBv .auto-group-ymwa-4Eg {
+    box-sizing: border-box;
+    padding: 324px 30px 30px 30px;
+    width: 300px;
+    height: 300px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../bootstrap/assets/rectangle-14317-bg.png');
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .auto-group-vyov-pBv .auto-group-t932-jbi {
+    box-sizing: border-box;
+    padding: 324px 30px 30px 30px;
+    width: 300px;
+    height: 300px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    background-color: #d9d9d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../bootstrap/assets/rectangle-14318-bg-SR2.png');
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .group-1000002270-asE {
+    /* margin: 0rem 99.2rem 0rem 50.2rem; */
+    box-sizing: border-box;
+    top: 3895px;
+    left: 747px;
+    /* padding: 1rem 2.03rem 1.03rem 2rem; */
+    width: 106px;
+    height: 48px;
+    margin-left: -50%;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #ffffff;
+    border-radius: 30px;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .group-1000002270-asE .group-1000002269-ftg {
+    box-sizing: border-box;
+    padding-right: 0rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .group-1000002270-asE .group-1000002269-ftg .material-symbols-arrow-right-alt-rounded-QrG {
+    margin: 0rem 1.03rem 0rem 0rem;
+    width: 2.7704rem;
+    height: 2.7704rem;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 3rem;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .hotel-place-J5A .group-1000002270-asE .group-1000002269-ftg .material-symbols-arrow-right-alt-rounded-uY8 {
+    width: 2.7704rem;
+    height: 2.7704rem;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 3rem;
+    flex-shrink: 0;
+  }
+  /* .root .auto-group-qaon-kpL .rectangle-14328-HHn {
+    width: 71.7899rem;
+    height: 71.7899rem;
+    position: absolute;
+    left: 0;
+    top: 69.5rem;
+    background: linear-gradient(15.32deg, #4691f2 41.05%, rgba(70, 145, 242, 0) 58.95%);
+  } */
+  .root .auto-group-qaon-kpL .testimonials-Xxp {
+    position: absolute;
+    width: 1110px;
+    height: 601px;
+    top: 4043px;
+    left: 245px;
+    margin-top: -2000%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .title-rEQ {
+    /* margin: 0rem 30.5rem 6rem 30.6rem; */
+    width: 499px;
+    height: 88px;
+    top: 4043px;
+    left: 551px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .title-rEQ .testimonials-BGg {
+    /* margin-left: 3.3rem; */
+    width: 92px;
+    height: 34px;
+    top: 4043px;
+    left: 754px;
+    margin-left: -25%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #4691f2;
+    font-family: Bunny, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .title-rEQ .what-our-traveler-says-Js6 {
+    font-size: 44px;
+    font-weight: 700;
+    width: 499px;
+    height: 54px;
+    top: 4077px;
+    left: 551px;
+    margin-left: -10%;
+    margin-top: -5%;
+    line-height: 54px;
+    color: #000000;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY {
+    width: 1110px;
+    height: 453px;
+    top: 4191px;
+    left: 245px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-n7nu-ZHE {
+    box-sizing: border-box;
+    /* padding: 19.3rem 3rem 0rem 0rem; */
+    width: 1110px;
+    height: 453px;
+    top: 4191px;
+    left: 245px;
+
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-n7nu-ZHE .image-6HA {
+    margin-right: 3rem;
+    width: 180px;
+    height: 260px;
+    top: 4384px;
+    margin-top: 80%;
+    margin-left: -10%;
+    left: 245px;
+    border-radius: 10px;
+
+    /* object-fit: cover;
+    vertical-align: top;
+    border-radius: 1rem; */
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-n7nu-ZHE .image-Dcg {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 10px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .image-x4U {
+    /* margin-right: 3rem; */
+    width: 280px;
+    height: 413px;
+    top: 4191px;
+    left: 665px;
+    border-radius: 10px;
+    margin-top: -365%;
+    margin-left: -30%;
+    position: absolute;
+    z-index: 2;
+    background-image: url('./img123.png');
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-jd6c-3bi {
+    width: 381px;
+    height: 145px;
+    flex-shrink: 0;
+    margin-left: -30%;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-jd6c-3bi .testimonial-CUc {
+    /* margin-bottom: 12.9rem; */
+    width: 380px;
+    height: 274px;
+    top: 4191px;
+    left: 975px;
+    gap: 30px;
+    margin-left: -30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-jd6c-3bi .testimonial-CUc .name-company-YoN {
+    /* margin-bottom: 3rem; */
+    width: 199px;
+    height: 62px;
+    gap: 4px;
+    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-jd6c-3bi .testimonial-CUc .name-company-YoN .tommy-murphy-6pt {
+    /* margin-bottom: 0.4rem; */
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #202020;
+    width: 164px;
+    height: 32px;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-jd6c-3bi .testimonial-CUc .name-company-YoN .global-directives-architect-RcG {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 199px;
+    height: 26px;
+    margin-top: -10%;
+    color: #808080;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-jd6c-3bi .testimonial-CUc .donec-adipiscing-tristique-risus-nec-feugiat-in-ullamcorper-morbi-tincidunt-ornare-massa-eget-egestas-purus-viverra-pharetra-sit-amet-aliquam-id-diam-maecenas-ultricies-mi-eget-aenean-euismod-elementum-nisi-quis-eleifend-sit-amet-facilisis-magna-etiam-tempor-orci-vitae-et-leo-duis-ut-arcu-cursus-vitae-congue-mauris-ZTa {
+    max-width: 38.1rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    width: 380px;
+    height: 182px;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .root .auto-group-qaon-kpL .testimonials-Xxp .group-1000002277-paY .auto-group-jd6c-3bi .group-39741-tuA {
+    width: 50px;
+    height: 50px;
+    top: 4594px;
+    left: 1025px;
+    border-radius: 30px;
+    angle: -180 deg;
+    margin-left: -30%;
+    object-fit: contain;
+    vertical-align: top;
+    border-radius: 3rem;
+  }
+  .root .call-to-action-omE {
+    margin-bottom: 10rem;
+    box-sizing: border-box;
+    padding: 10.6rem 42.9rem 10.6rem 43rem;
+    width: 900px;
+    height: 500px;
+    margin-left: 50%;
+    margin-right: -100%;
+    background-color: rgba(0, 0, 0, 0.200000003);
+    background-size: 100% 240.098%;
+    background-position: 0 -52.1514rem;
+    background-image: url('../bootstrap/assets/rectangle-14321-bg-M7i.png');
+    flex-shrink: 0;
+  }
+  .root .call-to-action-omE .cta-content-idJ {
+    box-sizing: border-box;
+    padding: 0 0.7rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem;
+  }
+  .root .call-to-action-omE .cta-content-idJ .are-you-ready-to-travel-remember-us--FNL {
+    margin-bottom: 1rem;
+    max-width: 48.7rem;
+    text-align: center;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.2272727273;
+    color: #ffffff;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .root .call-to-action-omE .cta-content-idJ .amet-nisl-purus-in-mollis-nunc-blandit-libero-volutpat-sed-cras-ornare-in-pellentesque-massa-placerat-duis-ultricies-lacus-sed-nisl-suscipit-adipiscing-bibendum-est-ultricies-integer-quis-auctor-id-consectetur-purus-ut-faucibus-pulvinar-elementum-integer-enim-joJ {
+    margin-bottom: 4rem;
+    max-width: 72.7rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.625;
+    color: #ffffff;
+    font-family: Mulish, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .root .call-to-action-omE .cta-content-idJ .lets-talk-4-jwi {
+    margin: 0 28rem;
+    box-sizing: border-box;
+    padding: 1.4rem 3.042rem 1.4rem 2.6rem;
+    width: calc(100% - 56rem);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 3rem;
+    flex-shrink: 0;
+  }
+  .root.call-to-action-omE .cta-content-idJ .lets-talk-4-jwi .book-now-3hW {
+    margin-right: 1.4rem;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #4691f2;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .call-to-action-omE .cta-content-idJ .lets-talk-4-jwi .material-symbols-arrow-right-alt-rounded-AXE {
+    margin-bottom: 0rem;
+    width: 1.5575rem;
+    height: 1.115rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .root .call-to-action-omE .call-to-action-omE-bg {
+    width: 160rem;
+    height: 50rem;
+    position: relative;
+    background-image: url('REPLACE_IMAGE:d54107ab2059b83117b49b4d7499c6758e67f313');
+  }
+  .root .auto-group-gnnp-ZJU {
+    margin: 0rem 0rem 10rem 24.5rem;
+    width: 151.5298rem;
+    height: 61.7rem;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .rectangle-14329-UwE {
+    width: 60.0298rem;
+    height: 60.0298rem;
+    position: absolute;
+    left: 91.5rem;
+    top: 0.6rem;
+    object-fit: contain;
+    vertical-align: top;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk {
+    width: 111rem;
+    height: 61.7rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-ddnk-kNx {
+    box-sizing: border-box;
+    padding: 0rem 36.3rem 6rem 36.4rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-ddnk-kNx .latest-news-siU {
+    margin-left: 4rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.4166666667;
+    color: #4691f2;
+    font-family: Bunny, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-ddnk-kNx .read-latest-blogs-bPa {
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.2272727273;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si {
+    width: 100%;
+    height: 46.9rem;
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39763-eck {
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    width: 35rem;
+    height: 100%;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39763-eck .image-y9E {
+    margin-bottom: 2rem;
+    width: 35rem;
+    height: 23.4rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39763-eck .journeys-are-best-measured-in-new-friends-t1J {
+    margin: 0rem 0rem 1rem 2rem;
+    max-width: 26.4rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.4545454545;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39763-eck .lorem-ipsum-dolor-si-yoS {
+    margin: 0rem 0rem 1.5rem 2rem;
+    max-width: 28.3rem;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.625;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root.auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39763-eck .read-more-t9i {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.5555555556;
+    color: #4691f2;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39764-aoE {
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    width: 35rem;
+    height: 100%;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39764-aoE .image-ieY {
+    margin-bottom: 2rem;
+    width: 35rem;
+    height: 23.4rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39764-aoE .a-lot-of-traveling-turns-you-into-a-storyteller-3wi {
+    margin: 0rem 0rem 1rem 2rem;
+    max-width: 29.4rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.4545454545;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39764-aoE .lorem-ipsum-dolor-si-xHz {
+    margin: 0rem 0rem 1.5rem 2rem;
+    max-width: 28.3rem;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.625;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39764-aoE .read-more-TVe {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.5555555556;
+    color: #4691f2;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39765-NsW {
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    width: 35rem;
+    height: 100%;
+    box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.0799999982);
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    flex-shrink: 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39765-NsW .image-85z {
+    margin-bottom: 2rem;
+    width: 35rem;
+    height: 23.4rem;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39765-NsW .travel-makes-one-modest-and-opened-to-ideas-FgQ {
+    margin: 0rem 0rem 1rem 2rem;
+    max-width: 26.9rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.4545454545;
+    color: #191212;
+    font-family: Space Grotesk, 'Source Sans Pro';
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39765-NsW .lorem-ipsum-dolor-si-kt4 {
+    margin: 0rem 0rem 1.5rem 2rem;
+    max-width: 28.3rem;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.625;
+    color: #6c6c6c;
+    font-family: Mulish, 'Source Sans Pro';
+  }
+  .root .auto-group-gnnp-ZJU .blogs-cGk .auto-group-mrng-7si .group-39765-NsW .read-more-Fpp {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.5555555556;
+    color: #4691f2;
+    font-family: Mulish, 'Source Sans Pro';
+    white-space: nowrap;
+  }
